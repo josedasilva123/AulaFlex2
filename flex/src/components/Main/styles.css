@@ -5,3 +5,19 @@
     font-size: 2rem;
     text-transform: uppercase;
 }
+.Main .Main-flexGrid{
+    display: flex;
+    justify-content: space-between;
+    gap: 3rem;
+}
+.Main .Main-flexGrid > aside{
+    min-width: 360px;
+}
+@media (max-width: 1040px){
+    .Main .Main-flexGrid{
+        flex-direction: column-reverse;   
+    }   
+    .Main .Main-flexGrid > aside{
+        min-width: unset;
+    }    
+}

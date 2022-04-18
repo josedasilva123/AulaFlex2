@@ -1,0 +1,45 @@
+.Aside{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.Aside-formGrid{    
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    background: blue;
+}
+.Aside-formGrid h2{
+    color: #fff;
+}
+.Aside-formGrid input{
+    font-weight: 600;
+    border: none;
+    height: 48px;
+    display: inline-flex;
+    align-items: center;
+    padding: 0 1rem;
+}
+.Aside-formGrid input:focus,
+.Aside-formGrid input:active{
+    outline-color: #001e32;
+}
+.Aside-formGrid button{
+    font-family: Montserrat, sans-serif;
+    font-weight: 600;
+    font-size: 1.2rem;
+
+    background: #001e32;
+    border: 2px solid #001e32;
+    color: #fff;
+
+    padding: 0 2rem;
+    height: 48px;
+    transition: .3s;
+}
+.Aside-formGrid button:hover{
+    background: #fff;
+    border-color: #fff;
+    color: #001e32;
+}

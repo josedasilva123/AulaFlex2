@@ -1,0 +1,43 @@
+.Footer{
+    background: blue;
+    padding: 1rem;
+}
+.Footer div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: .8rem;
+    max-width: 1300px;
+    margin: 0 auto;
+}
+.Footer div > img{
+    width: 80px;
+}
+.Footer div button{
+    font-family: Montserrat, sans-serif;
+    font-weight: 600;
+    font-size: 1.2rem;
+
+    background: #001e32;
+    border: 2px solid #001e32;
+    color: #fff;
+    padding: 0 2rem;
+    height: 48px;
+
+    transition: .3s;
+}
+.Footer div button:hover{
+    background: #fff;
+    border-color: #fff;
+    color: #001e32;
+}
+@media (max-width: 420px){
+    .Footer div{
+        flex-direction: column;   
+        gap: 1.4rem;
+    } 
+    .Footer div button{
+        width: 100%;
+    }  
+}

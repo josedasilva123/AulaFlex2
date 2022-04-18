@@ -1,0 +1,43 @@
+@import './styles/fonts.css';
+
+*{
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+ul, ol{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background: rgb(238, 238, 238);
+} 
+h1, h2, h3, h4, h5, h6, p, small{
+    font-family: 'JetBrains Mono', monospace;
+    font-weight: 800;
+    margin: 0;
+    padding: 0;
+}
+button{
+    cursor: pointer;
+}
+img{
+    max-width: 100%;
+}
+input{
+    font-family: Montserrat;
+}
+.container{
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: .8rem;
+}
+.container.small{
+   max-width: 1200px; 
+}
+.container.big{
+    max-width: 1320px;
+}

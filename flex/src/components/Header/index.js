@@ -1,5 +1,6 @@
 import React from "react";
 import './styles.css';
+import { ThemeButton } from "../../styles/GlobalComponents";
 
 const Header = () => {
   return (
@@ -7,7 +8,7 @@ const Header = () => {
       <div className="container">
         <div className="Header-flexGrid">
           <h2>FlexBlog</h2>
-          <button>Seja feliz!</button>
+          <ThemeButton buttonStyle="outline1">Seja feliz!</ThemeButton>
         </div>
       </div>
     </header>
